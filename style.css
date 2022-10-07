@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    padding: 50px;
+}
+
+p{
+    text-align: center;
+    padding: 50px;
+    font-size: 4rem;
+}
+
+.buttonContainer {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#start, #stop, #reset {
+    font-size: 3rem;
+    height: 100px;
+    width: 300px;
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    cursor: pointer;
+}
